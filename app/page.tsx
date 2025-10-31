@@ -1,7 +1,12 @@
+import Container from "@/components/Container";
+
 export default function Home() {
   return (
     <div>
-      <h1>Hello</h1>
+      <Container>
+        Hello
+        {/* <Button variant="destructive">Test</Button> */}
+      </Container>
     </div>
   );
 }
